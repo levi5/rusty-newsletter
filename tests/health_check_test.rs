@@ -1,6 +1,6 @@
 use std::net::TcpListener;
 
-use newsletters::run;
+use newsletters::startup::run;
 
 fn spawn_app() -> String {
     let listener = TcpListener::bind("127.0.0.1:0").expect("Failed to bind random port");

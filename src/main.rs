@@ -1,6 +1,6 @@
 use std::net::TcpListener;
 
-use newsletters::run;
+use newsletters::startup::run;
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
